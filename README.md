@@ -69,7 +69,7 @@ Separate screw-terminal groups for mains in/out and a dedicated pin-header break
 
 **Revision B — refined layout:**
 
-![PCB revision A, top view](environmental-controller/docs/pcb_revA_top.png)
+![PCB revision B, top view](environmental-controller/docs/pcb_revB_top.png)
 
 Unified terminal strip along the bottom edge for all power and sensor connections, dedicated labeled headers for the four front-panel buttons (BTN1–BTN4), and an explicit I2C header at the top (GND/VCC/SCL/SDA) for the OLED. Easier to assemble, easier to diagnose during bring-up.
 
@@ -83,7 +83,7 @@ Both revisions keep a slot cutout between the mains and logic sections for creep
 
 3D-printable enclosure designed in Fusion 360, printed on a Bambu Lab multi-color FDM printer to allow the button labels to be printed directly into the top face of the lid rather than applied as stickers or silkscreen.
 
-![PCB revision B, top view](environmental-controller/docs/pcb_revB_top.png)
+![Main enclosure](environmental-controller/docs/enclosure_main.png)
 
 The main box includes integrated PCB mounting features, a side cutout for the terminal strip, and recessed button pockets with a thin top layer — the button faces are supported from underneath by the lid rather than protruding through holes, which gives a cleaner finished look and better tactile feel.
 
