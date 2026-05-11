@@ -3,7 +3,7 @@
 Dual-relay humidity and vapor pressure deficit (VPD) controller built around a custom ESP32/RP2040 PCB.
 End-to-end project: firmware, schematic, 2-layer PCB layout, and 3D-printed enclosure, all designed and built from scratch.
 
-![PCB revision B, top view](environmental-controller/docs/pcb_revB_top.png)
+![PCB revision B, top view](docs/pcb_revB_top.png)
 
 ---
 
@@ -64,13 +64,13 @@ Full 2-layer PCB designed in EasyEDA. Complete Gerber sets for both revisions ar
 
 **Revision A — initial working board:**
 
-![PCB revision A, top view](environmental-controller/docs/pcb_revA_top.png)
+![PCB revision A, top view](docs/pcb_revA_top.png)
 
 3rd ideration of board, self driven, added spring clamp, button header, and display header to aid in assembly. Added additional saftey features as well to manage AC/DC seperation.
 
 **Revision B — refined layout:**
 
-![PCB revision B, top view](environmental-controller/docs/pcb_revC_top.png)
+![PCB revision B, top view](docs/pcb_revC_top.png)
 
 Unified terminal strip along the bottom edge for all power and sensor connections, dedicated labeled headers for the four front-panel buttons (BTN1–BTN4), and an explicit I2C header at the top (GND/VCC/SCL/SDA) for the OLED. 
 
@@ -84,7 +84,7 @@ Both revisions keep a slot cutout between the mains and logic sections for creep
 
 3D-printable enclosure designed in Fusion 360, printed on a Bambu Lab multi-color FDM printer to allow the button labels to be printed directly into the top face of the lid rather than applied as stickers or silkscreen. Buttons themselves are nexted into the print as well.
 
-![Main enclosure](environmental-controller/docs/enclosure_main.png)
+![Main enclosure](docs/enclosure_main.png)
 
 The main box includes a nested button pocket with a thin top layer which gives a cleaner finished look and better tactile feel. Labels are printed directly into the box.
 
