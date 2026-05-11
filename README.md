@@ -69,7 +69,7 @@ Separate screw-terminal groups for mains in/out and a dedicated pin-header break
 
 **Revision B — refined layout:**
 
-![PCB revision B, top view](environmental-controller/docs/pcb_revB_top.png)
+![PCB revision B, top view](environmental-controller/docs/pcb_revC_top.png)
 
 Unified terminal strip along the bottom edge for all power and sensor connections, dedicated labeled headers for the four front-panel buttons (BTN1–BTN4), and an explicit I2C header at the top (GND/VCC/SCL/SDA) for the OLED. Easier to assemble, easier to diagnose during bring-up.
 
