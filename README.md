@@ -66,7 +66,7 @@ Full 2-layer PCB designed in EasyEDA. Complete Gerber sets for both revisions ar
 
 ![PCB revision A, top view](environmental-controller/docs/pcb_revA_top.png)
 
-Separate screw-terminal groups for mains in/out and a dedicated pin-header breakout for sensor connections. Functional but awkward to wire and assemble. 
+3rd ideration of design, added spring clamp, button header, and display header to aid in assembly. Added additional saftey features as well to manage AC/DC seperation.
 
 **Revision B — refined layout:**
 
